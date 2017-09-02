@@ -1,9 +1,29 @@
+#include <GL/glx.h>    
+#include <GL/gl.h>
+#include <GL/glut.h>
 #include <stdio.h>
-#include <stdlib.h>
-#include <graphics.h>
 #include <iostream>
-#define round(a) ((int)(a+0.5))
 using namespace std;
+
+#define round(a) ((int)(a+0.5))
+
+struct line
+{
+	int x1, y1;
+	int x2, y2;
+}L;
+
+void init(line &l)
+{
+	l.x1 = l.x2 = l.y1 = l.y2 = 0;
+}
+
+void getline(line &l)
+{
+	printf("Enter the start and end points:\n(x1,y1),(x2,y2)\n");
+	scanf("%d %d", &l.x1, &l.y1);
+	scanf("%d %d", &l.x2, &l.y2);
+}
 
 int sign(int x)
 {
@@ -13,37 +33,51 @@ int sign(int x)
 		return x<0? -1:1;
 }
 
-void DDA(int x1, int x2, int y1, int y2)
+void setpX(GLint XCv, GLint yCv)
 {
-	// int x = x1, y = y1;
-	int gd=DETECT,gm; 
-	initgraph(&gd,&gm,NULL);
-	int dx = abs(x2-x1);
-	int dy = abs(y2-y1);
-	int len = dx>dy? dx:dy;
-	float delx = (x2-x1)/len;
-	float dely = (y2-y1)/len;
-	float x = x1, y = y1;
+	glBegin (GL_POINTS);
+		glVertex2i(XCv,yCv);
+	glEnd();
+}
+
+int absl (int n)
+{
+    return ( (n>0) ? n : ( n * (-1)));
+}
+
+void DDA()
+{
+	int dx = L.x2-L.x1;
+	int dy = L.y2-L.y1;
+	int len = absl(dx) > absl(dy) ? absl(dx) : absl(dy) ; 
+	float delx = dx/len;
+	float dely = dy/len;
+	float x = L.x1, y = L.y1;
 	x = x + 0.5*sign(dx);
 	y = y + 0.5*sign(dy);
-	putpixel(x,y,7);
+	setpX(x,y);
 	while(len--)
 	{
-		putpixel(round(x),round(y),7);
+		setpX(round(x),round(y));
 		x = x+delx;
 		y = y+dely;
 	}
-	getch();
-	closegraph();
+	
+	glFlush();
+	glutSwapBuffers();
 }
 
 
-int main()
+int main(int argc, char** argv)
 {
-	int x1,x2,y1,y2;
-	printf("Enter the start and end points:\n(x1,y1),(x2,y2)\n");
-	cin>>x1>>y1;
-	cin>>x2>>y2;
-	DDA(x1,x2,y1,y2);
+	init(L);
+	getline(L);
+	glutInit(&argc, argv);
+	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
+	glutInitWindowSize(640,640);
+	glutCreateWindow("DDA Line Algo");
+	glutDisplayFunc(DDA);
+	gluOrtho2D(640,0,640,0);
+	glutMainLoop();
 	return 0;
 }
