@@ -47,6 +47,8 @@ int absl (int n)
 
 void DDA()
 {
+	int cnt = 0;
+	bool flag = false;
 	float dx = L.x2-L.x1;
 	float dy = L.y2-L.y1;
 	float len = absl(dx) > absl(dy) ? absl(dx) : absl(dy) ; 
@@ -58,7 +60,11 @@ void DDA()
 	setpX(x,y);
 	while(len--)
 	{
-		setpX(round(x),round(y));
+		if(cnt%5 == 0)
+		{
+			setpX(round(x),round(y));
+		}
+		cnt++;
 		x = x+delx;
 		y = y+dely;
 	}
