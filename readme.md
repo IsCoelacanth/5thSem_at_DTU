@@ -17,7 +17,15 @@ The code work is in OpenGL. Instructions for installing OpenGL on Windows and Li
 If graphics.h is to be used, follow this [tutorial](/Computer_Graphics/instructions.md) for installing graphics.h on Linux.  
 
 ## 2. Software Engineering (CO - 301)  
-
 Recommended books :  
-[]    
+* [Software Engineering By KK Aggarwal and Yogesh Singh](https://www.flipkart.com/software-engineering-3rd/p/itmdythhna5w2p6u) for learning go with this book only. Easily available near college and in library. (Note: only buy 3rd edition).
+
+## 3. Theory of Computation (CO - 303)
+Recommended books:
+* [Introduction in Computer Theory](https://goo.gl/yHE93g) 
+* [Theory of Computer Science](https://goo.gl/eGct47) 
+
+
+[Syllabus](http://dtu.ac.in/Web/Academics/syllabus/schemes/CO.pdf)
+
 
