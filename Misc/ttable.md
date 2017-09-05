@@ -15,70 +15,70 @@
 			<th>5-6</th>			
 		</tr>
 	</thead>
-	<tbody align="center" style="font-size: 10px">
+	<tbody align="center">
 		<tr>
-			<td align="left"><b>Monday</b></td>
-			<td colspan="2">G1 – PR LAB – IS LAB
+			<td style="font-size: 10px" align="left"><b>Monday</b></td>
+			<td style="font-size: 10px" colspan="2">G1 – PR LAB – IS LAB
 				G2 – PR LAB – WE LAB
 				G3 – PR LAB – CN LAB</td>
-			<td colspan="3">X</td>
-			<td>TOC
+			<td style="font-size: 10px" colspan="3">X</td>
+			<td style="font-size: 10px">TOC
 			(SPS - 14)</td>
-			<td>SE
+			<td style="font-size: 10px">SE
 			(SPS-14)</td>
-			<td colspan="3">X</td>
+			<td style="font-size: 10px" colspan="3">X</td>
 		</tr>
 		<tr>
-			<td align="left"><b>Tuesday</b></td>
-			<td colspan="2">CG (DEC-B)
+			<td style="font-size: 10px" align="left"><b>Tuesday</b></td>
+			<td style="font-size: 10px" colspan="2">CG (DEC-B)
 			(SPS-14)</td>
-			<td colspan="2">G3 - SE LAB (SE LAB)</td>
-			<td>X</td>
-			<td>PEV
+			<td style="font-size: 10px" colspan="2">G3 - SE LAB (SE LAB)</td>
+			<td style="font-size: 10px">X</td>
+			<td style="font-size: 10px">PEV
 			(SPS-14)</td>
-			<td colspan="2">CV (UE)
+			<td style="font-size: 10px" colspan="2">CV (UE)
 			(TW2FF1)</td>
-			<td colspan="2">X</td>
+			<td style="font-size: 10px" colspan="2">X</td>
 		</tr>
 		<tr>
-			<td align="left"><b>Wednesday</b></td>
-			<td>PR (DEC-A)
+			<td style="font-size: 10px" align="left"><b>Wednesday</b></td>
+			<td style="font-size: 10px">PR (DEC-A)
 			(TW2GF2)</td>
-			<td>CG (DEC-B)
+			<td style="font-size: 10px">CG (DEC-B)
 			(SPS-14)</td>
-			<td>CV (UE)
+			<td style="font-size: 10px">CV (UE)
 			(TW2FF1)</td>
-			<td colspan="3">X</td>
-			<td>SE
+			<td style="font-size: 10px" colspan="3">X</td>
+			<td style="font-size: 10px">SE
 			(SPS-14)</td>
-			<td>TOC
+			<td style="font-size: 10px">TOC
 			(SPS-14)</td>
-			<td colspan="2">X</td>
+			<td style="font-size: 10px" colspan="2">X</td>
 		</tr>
 		<tr>
-			<td align="left"><b>Thursday</b></td>
-			<td colspan="2">PR (DEC-A)
+			<td style="font-size: 10px" align="left"><b>Thursday</b></td>
+			<td style="font-size: 10px" colspan="2">PR (DEC-A)
 			(TW2GF2)</td>
-			<td colspan="3">X</td>
-			<td>SE
+			<td style="font-size: 10px" colspan="3">X</td>
+			<td style="font-size: 10px">SE
 			(SPS-14)</td>
-			<td>PEV
+			<td style="font-size: 10px">PEV
 			(SPS-14)</td>
-			<td>TOC
+			<td style="font-size: 10px">TOC
 			(SPS-14)</td>
-			<td colspan="2">X</td>
+			<td style="font-size: 10px" colspan="2">X</td>
 		</tr>
 		<tr>
-			<td align="left"><b>Friday</b></td>
-			<td colspan="2">G1 – CG LAB – IPM LAB
+			<td style="font-size: 10px" align="left"><b>Friday</b></td>
+			<td style="font-size: 10px" colspan="2">G1 – CG LAB – IPM LAB
 			G2 – CG LAB – CA LAB
 			G3 – CG LAB – SE LAB</td>
-			<td colspan="2">X</td>
-			<td>TOC
+			<td style="font-size: 10px" colspan="2">X</td>
+			<td style="font-size: 10px">TOC
 			(SPS-14)</td>
-			<td colspan="2">G1 - SE LAB (DBMS LAB)</td>
-			<td colspan="2">G2 - SE LAB (DBMS LAB)</td>
-			<td>X</td>
+			<td style="font-size: 10px" colspan="2">G1 - SE LAB (DBMS LAB)</td>
+			<td style="font-size: 10px" colspan="2">G2 - SE LAB (DBMS LAB)</td>
+			<td style="font-size: 10px">X</td>
 		</tr>
 	</tbody>
 </table>
