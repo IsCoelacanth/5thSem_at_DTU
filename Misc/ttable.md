@@ -15,7 +15,7 @@
 			<th>5-6</th>			
 		</tr>
 	</thead>
-	<tbody align="center" style="font-size: 0.75em">
+	<tbody align="center" style="font-size: 10px">
 		<tr>
 			<td align="left"><b>Monday</b></td>
 			<td colspan="2">G1 – PR LAB – IS LAB
