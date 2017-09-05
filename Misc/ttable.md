@@ -1,4 +1,4 @@
-#Time Table COE - A with CG-B1, PR-A1, CV-A electives
+# Time Table COE - A with CG-B1, PR-A1, CV-A electives
 <table align="center" style="table-layout: fixed;">
 	<thead>
 		<tr>
