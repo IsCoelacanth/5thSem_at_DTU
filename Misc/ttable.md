@@ -15,9 +15,9 @@
 			<th>5-6</th>			
 		</tr>
 	</thead>
-	<tbody align="center">
+	<tbody align="center" style="font-size: 0.75em">
 		<tr>
-			<td align="left"><em>Monday</em></td>
+			<td align="left"><b>Monday</b></td>
 			<td colspan="2">G1 – PR LAB – IS LAB
 				G2 – PR LAB – WE LAB
 				G3 – PR LAB – CN LAB</td>
@@ -29,7 +29,7 @@
 			<td colspan="3">X</td>
 		</tr>
 		<tr>
-			<td align="left"><em>Tuesday</em></td>
+			<td align="left"><b>Tuesday</b></td>
 			<td colspan="2">CG (DEC-B)
 			(SPS-14)</td>
 			<td colspan="2">G3 - SE LAB (SE LAB)</td>
@@ -41,7 +41,7 @@
 			<td colspan="2">X</td>
 		</tr>
 		<tr>
-			<td align="left"><em>Wednesday</em></td>
+			<td align="left"><b>Wednesday</b></td>
 			<td>PR (DEC-A)
 			(TW2GF2)</td>
 			<td>CG (DEC-B)
@@ -56,7 +56,7 @@
 			<td colspan="2">X</td>
 		</tr>
 		<tr>
-			<td align="left"><em>Thursday</em></td>
+			<td align="left"><b>Thursday</b></td>
 			<td colspan="2">PR (DEC-A)
 			(TW2GF2)</td>
 			<td colspan="3">X</td>
@@ -69,7 +69,7 @@
 			<td colspan="2">X</td>
 		</tr>
 		<tr>
-			<td align="left"><em>Friday</em></td>
+			<td align="left"><b>Friday</b></td>
 			<td colspan="2">G1 – CG LAB – IPM LAB
 			G2 – CG LAB – CA LAB
 			G3 – CG LAB – SE LAB</td>
