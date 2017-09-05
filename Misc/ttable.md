@@ -1,4 +1,4 @@
-#Time Table COE - A with Computer Graphics-B1, Pattern Recognition-A1, Computer Vision-A electives
+#Time Table COE - A with CG-B1, PR-A1, CV-A electives
 <table align="center" style="table-layout: fixed;">
 	<thead>
 		<tr>
@@ -17,68 +17,68 @@
 	</thead>
 	<tbody align="center">
 		<tr>
-			<td width: calc(100%11) align="left">**Monday**</td>
-			<td width: calc(100%11) colspan="2">G1 – Pattern Recognition LAB – IS LAB
-				G2 – Pattern Recognition LAB – WE LAB
-				G3 – Pattern Recognition LAB – CN LAB</td>
-			<td width: calc(100%11) colspan="3">X</td>
-			<td width: calc(100%11)>Theory Of Computation
+			<td align="left"><em>Monday</em></td>
+			<td colspan="2">G1 – PR LAB – IS LAB
+				G2 – PR LAB – WE LAB
+				G3 – PR LAB – CN LAB</td>
+			<td colspan="3">X</td>
+			<td>TOC
 			(SPS - 14)</td>
-			<td width: calc(100%11)>Software Engineering
+			<td>SE
 			(SPS-14)</td>
-			<td width: calc(100%11) colspan="3">X</td>
+			<td colspan="3">X</td>
 		</tr>
 		<tr>
-			<td width: calc(100%11) align="left">**Tuesday**</td>
-			<td width: calc(100%11) colspan="2">Computer Graphics (DEC-B)
+			<td align="left"><em>Tuesday</em></td>
+			<td colspan="2">CG (DEC-B)
 			(SPS-14)</td>
-			<td width: calc(100%11) colspan="2">G3 - Software Engineering LAB (Software Engineering LAB)</td>
-			<td width: calc(100%11)>X</td>
-			<td width: calc(100%11)>Professional Ethics And Values
+			<td colspan="2">G3 - SE LAB (SE LAB)</td>
+			<td>X</td>
+			<td>PEV
 			(SPS-14)</td>
-			<td width: calc(100%11) colspan="2">Computer Vision (UE)
+			<td colspan="2">CV (UE)
 			(TW2FF1)</td>
-			<td width: calc(100%11) colspan="2">X</td>
+			<td colspan="2">X</td>
 		</tr>
 		<tr>
-			<td width: calc(100%11) align="left">**Wednesday**</td>
-			<td width: calc(100%11)>Pattern Recognition (DEC-A)
+			<td align="left"><em>Wednesday</em></td>
+			<td>PR (DEC-A)
 			(TW2GF2)</td>
-			<td width: calc(100%11)>Computer Graphics (DEC-B)
+			<td>CG (DEC-B)
 			(SPS-14)</td>
-			<td width: calc(100%11)>Computer Vision (UE)
+			<td>CV (UE)
 			(TW2FF1)</td>
-			<td width: calc(100%11) colspan="3">X</td>
-			<td width: calc(100%11)>Software Engineering
+			<td colspan="3">X</td>
+			<td>SE
 			(SPS-14)</td>
-			<td width: calc(100%11)>Theory Of Computation
+			<td>TOC
 			(SPS-14)</td>
-			<td width: calc(100%11) colspan="2">X</td>
+			<td colspan="2">X</td>
 		</tr>
 		<tr>
-			<td width: calc(100%11) align="left">**Thursday**</td>
-			<td width: calc(100%11) colspan="2">Pattern Recognition (DEC-A)
+			<td align="left"><em>Thursday</em></td>
+			<td colspan="2">PR (DEC-A)
 			(TW2GF2)</td>
-			<td width: calc(100%11) colspan="3">X</td>
-			<td width: calc(100%11)>Software Engineering
+			<td colspan="3">X</td>
+			<td>SE
 			(SPS-14)</td>
-			<td width: calc(100%11)>Professional Ethics And Values
+			<td>PEV
 			(SPS-14)</td>
-			<td width: calc(100%11)>Theory Of Computation
+			<td>TOC
 			(SPS-14)</td>
-			<td width: calc(100%11) colspan="2">X</td>
+			<td colspan="2">X</td>
 		</tr>
 		<tr>
-			<td width: calc(100%11) align="left">**Friday**</td>
-			<td width: calc(100%11) colspan="2">G1 – Computer Graphics LAB – IPM LAB
-			G2 – Computer Graphics LAB – CA LAB
-			G3 – Computer Graphics LAB – Software Engineering LAB</td>
-			<td width: calc(100%11) colspan="2">X</td>
-			<td width: calc(100%11)>Theory Of Computation
+			<td align="left"><em>Friday</em></td>
+			<td colspan="2">G1 – CG LAB – IPM LAB
+			G2 – CG LAB – CA LAB
+			G3 – CG LAB – SE LAB</td>
+			<td colspan="2">X</td>
+			<td>TOC
 			(SPS-14)</td>
-			<td width: calc(100%11) colspan="2">G1 - Software Engineering LAB (DBMS LAB)</td>
-			<td width: calc(100%11) colspan="2">G2 - Software Engineering LAB (DBMS LAB)</td>
-			<td width: calc(100%11)>X</td>
+			<td colspan="2">G1 - SE LAB (DBMS LAB)</td>
+			<td colspan="2">G2 - SE LAB (DBMS LAB)</td>
+			<td>X</td>
 		</tr>
 	</tbody>
 </table>
