@@ -124,9 +124,9 @@ int main(int argc, char** argv)
 ### Results and outputs:  
 the command line inputs.  
 
-![Output CLI](/mnt/40D2F30DD2F305C6/College stuff/College Stuff.Academic/College Stuff.Academic.Semesters/College.Stuff.Academic.Semesters.YEAR_3/SEM 5/Computer_Graphics/CG_LAB/Outputs/DDA_CLI.png)   
+![Output CLI](../Outputs/DDA_CLI.png)   
 The generated line.   
-![Output GPH](/mnt/40D2F30DD2F305C6/College stuff/College Stuff.Academic/College Stuff.Academic.Semesters/College.Stuff.Academic.Semesters.YEAR_3/SEM 5/Computer_Graphics/CG_LAB/Outputs/DDA_GPH.png)  
+![Output GPH](../Outputs/DDA_GPH.png)  
 
 ---
 ### Findings and Learnings:

@@ -149,9 +149,9 @@ int main(int argc, char** argv)
 ### Results and outputs:  
 the command line inputs.  
 
-![Output CLI](H:\College stuff\College Stuff.Academic\College Stuff.Academic.Semesters\College.Stuff.Academic.Semesters.YEAR_3\SEM 5\Computer_Graphics\CG_LAB\Outputs\BHM_CLI.png)   
+![Output CLI](../Outputs/BHM_CLI.png)   
 The generated line.   
-![Output GPH](H:\College stuff\College Stuff.Academic\College Stuff.Academic.Semesters\College.Stuff.Academic.Semesters.YEAR_3\SEM 5\Computer_Graphics\CG_LAB\Outputs\BHM_GPH.png)  
+![Output GPH](../Outputs/BHM_GPH.png)  
 
 ---
 ### Findings and Learnings:

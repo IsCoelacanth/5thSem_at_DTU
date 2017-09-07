@@ -162,9 +162,9 @@ int main(int argc, char** argv)
 ### Results and outputs:  
 the command line inputs.  
 
-![Output CLI](/mnt/40D2F30DD2F305C6/College stuff/College Stuff.Academic/College Stuff.Academic.Semesters/College.Stuff.Academic.Semesters.YEAR_3/SEM 5/Computer_Graphics/CG_LAB/Outputs/MPC_CLI.png)   
+![Output CLI](../Outputs/MPC_CLI.png)   
 The generated line.   
-![Output GPH](/mnt/40D2F30DD2F305C6/College stuff/College Stuff.Academic/College Stuff.Academic.Semesters/College.Stuff.Academic.Semesters.YEAR_3/SEM 5/Computer_Graphics/CG_LAB/Outputs/MPC_GPH.png)  
+![Output GPH](../Outputs/MPC_GPH.png)  
 
 ---
 ### Findings and Learnings:
