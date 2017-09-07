@@ -2,8 +2,6 @@
 #include <GL/gl.h>
 #include <GL/glut.h>
 #include <stdio.h>
-#include <iostream>
-using namespace std;
 
 #define round(a) ((int)(a+0.5))
 
@@ -13,16 +11,18 @@ struct line
 	int x2, y2;
 }L;
 
-void init(line &l)
+typedef struct line line;
+
+void init(line *l)
 {
-	l.x1 = l.x2 = l.y1 = l.y2 = 0;
+	l->x1 = l->x2 = l->y1 = l->y2 = 0;
 }
 
-void getline(line &l)
+void getLine(line *l)
 {
 	printf("Enter the start and end points:\n(x1,y1),(x2,y2)\n");
-	scanf("%d %d", &l.x1, &l.y1);
-	scanf("%d %d", &l.x2, &l.y2);
+	scanf("%d %d", &l->x1, &l->y1);
+	scanf("%d %d", &l->x2, &l->y2);
 }
 
 int sign(int x)
@@ -70,12 +70,15 @@ void DDA()
 
 int main(int argc, char** argv)
 {
-	init(L);
-	getline(L);
+	init(&L);
+	getLine(&L);
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
 	glutInitWindowSize(640,640);
 	glutCreateWindow("DDA Line Algo");
+	glClearColor(255,255,255,0.f);
+	glColor3f(0,0,0);
+	glClear(GL_COLOR_BUFFER_BIT);
 	glutDisplayFunc(DDA);
 	gluOrtho2D(640,0,640,0);
 	glutMainLoop();

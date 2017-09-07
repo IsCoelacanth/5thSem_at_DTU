@@ -1,35 +1,34 @@
 #include <GL/glut.h>
 #include <stdio.h>
-#include <iostream>
-using namespace std;
 
 
-GLint Xc, Yc, R;
+int Xc, Yc, R;
 
 struct pts
 {
 	GLint X, Y, R;
 };
+typedef pts pts;
 
-void initpt(pts &p)
+void initpt(pts *p)
 {
-	p.X = p.Y = p.R = 0;
+	p->X = p->Y = p->R = 0;
 }
 
-void incX(pts &p)
+void incX(pts *p)
 {
-	p.X++;
+	p->X++;
 }
 
-void decY(pts &p)
+void decY(pts *p)
 {
-	p.Y--;
+	p->Y--;
 }
 
 void setdata()
 {
 	printf("Enter X, Y and Radius\n");
-	cin>>Xc>>Yc>>R;
+	scanf("%d %d %d",&Xc,&Yc,&R);
 }
 
 void setpX(GLint XCv, GLint yCv)
@@ -39,10 +38,10 @@ void setpX(GLint XCv, GLint yCv)
 	glEnd();
 }
 
-void setCords(pts &p, GLint xCv, GLint yCv)
+void setCords(pts *p, GLint xCv, GLint yCv)
 {
-	p.X = xCv;
-	p.Y = yCv;
+	p->X = xCv;
+	p->Y = yCv;
 }
 
 void cirPlotPts(GLint X, GLint Y, pts circ)
@@ -61,20 +60,20 @@ void cirPlotPts(GLint X, GLint Y, pts circ)
 void CircleMidPointHc()
 	{
 	    pts cpt;
-	    initpt(cpt);
+	    initpt(&cpt);
 		GLint p = 1-R;
 
-		setCords(cpt,0,R);
+		setCords(&cpt,0,R);
 		cirPlotPts(Xc,Yc,cpt);
 
 		while(cpt.X < cpt.Y)
 		{
-			incX(cpt);
+			incX(&cpt);
 			if(p < 0)
 				p += 2*cpt.X + 1;
 			else
 			{
-				decY(cpt);
+				decY(&cpt);
 				p += 2*(cpt.X - cpt.Y) + 1;
 			}
 			cirPlotPts(Xc,Yc,cpt);
@@ -90,6 +89,9 @@ int main(int argc, char** argv)
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
 	glutInitWindowSize(640,640);
 	glutCreateWindow("MidPointCirc");
+	glClearColor(255,255,255,0.f);
+	glColor3f(0,0,0);
+	glClear(GL_COLOR_BUFFER_BIT);
 	glutDisplayFunc(CircleMidPointHc);
 	gluOrtho2D(640,0,640,0);
 	glutMainLoop();

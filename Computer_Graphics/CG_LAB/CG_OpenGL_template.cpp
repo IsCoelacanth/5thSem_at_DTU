@@ -24,6 +24,9 @@ int main(int argc, char** argv)
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
 	glutInitWindowSize(640,640);
 	glutCreateWindow("<--Name of Window-->");
+	glClearColor(255,255,255,0.f);
+	glColor3f(0,0,0);
+	glClear(GL_COLOR_BUFFER_BIT);
 	glutDisplayFunc(<--Name of Drawing Function-->);
 	gluOrtho2D(640,0,640,0);
 	glutMainLoop();
