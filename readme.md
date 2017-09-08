@@ -65,7 +65,7 @@ No single book can be recommended for this course as the scope for questions in 
 * It's also recommened to brush up your linear algebra and basic calculus as well.  
 
 
-## 5. Computer Visiom (EC - 353)  
+## 5. Computer Vision (EC - 353)  
 #### Recommended books :
 1. [Computer Vision: A Modern Approach, Ponce & Forsyth](https://goo.gl/vvXUVj) This is the main and only text for the course.
 
