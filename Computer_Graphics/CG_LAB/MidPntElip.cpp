@@ -43,7 +43,7 @@ void ElipMidPointHc()
     int py = Trx * y;
     ElipPlotPts(Xc,Yc,x,y);
     //Region 1
-    p = round(Ry2 + 0.25*Rx2 + (Ry*Rx2));
+    p = round(Ry2 + 0.25*Rx2 - (Ry*Rx2));
     while(px < py)
     {
     	x++;
@@ -58,6 +58,7 @@ void ElipMidPointHc()
     		py -= Trx;
     		p += Try + px - py;
     	}
+    	printf("X = %d, Y = %d\n",x,y );
     	ElipPlotPts(Xc,Yc,x,y);
     }
     //Region 2;
@@ -77,6 +78,7 @@ void ElipMidPointHc()
     		px += Try;
     		p += Rx2 - py + px;
     	}
+    	printf("X = %d, Y = %d\n",x,y );
     	ElipPlotPts(Xc,Yc,x,y);
     }
 
