@@ -15,8 +15,10 @@
 - #### The Digital Differential Analyzer (<i>DDA</i>) Algorithm:  
     - The digital differential analyzer (DDA) is a scan-conversion line algorithm based on
       calculating either δy or δx using either of the following:  
-     	![form1](https://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Cdelta%20y%20%3D%20m.%5Cdelta%20x)
-        <center>δx = δy/m</center>  
+      <p align="center" >
+     	![form1](https://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Cdelta%20y%20%3D%20m.%5Cdelta%20x)  
+        ![form2](https://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Cdelta%20x%20%3D%20%5Cdelta%20y%20/%20m)  
+      </p>   
     - A line is sampled at unit intervals in one coordinate and the corresponding integer values nearest the line path are determined for the other coordinate. Considering lines with positive slopes, if slope is <= 1 then we increment δx and calculate y as :  
 		<center>yk+1 = yk + m</center> 
         For lines with a positive slope greater than 1.0, we reverse the roles of x and y:  
