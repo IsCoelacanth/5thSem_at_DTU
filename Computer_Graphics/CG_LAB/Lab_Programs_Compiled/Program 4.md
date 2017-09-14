@@ -1,4 +1,4 @@
-# <p align="center"><u>Program 4</u></
+# <p align="center"><u>Program 4</u></p>
 ### AIM: To write a program to implement the Mid-Point Ellipse Algorithm in C..
 
 ### Description of Aim & Related Theory:
