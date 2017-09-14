@@ -9,7 +9,7 @@
 
       <center>
 
-      ​	<img src ="..Outputs/Latex_images/Ellipse/d1_p_d2_C.png" />
+      ​	<img src ="../Outputs/Latex_images/Ellipse/d1_p_d2_C.png" />
 
       </center>
 
@@ -17,7 +17,7 @@
 
       <center>
 
-      ​	<img src ="..Outputs/Latex_images/Ellipse/elipForm.png" />
+      ​	<img src ="../Outputs/Latex_images/Ellipse/elipForm.png" />
 
       </center>
 
@@ -27,7 +27,7 @@
 
       <center>
 
-      ​	<img src ="..Outputs/Latex_images/Ellipse/elipForm2.png" />
+      ​	<img src ="../Outputs/Latex_images/Ellipse/elipForm2.png" />
 
       </center>
 
@@ -44,7 +44,7 @@
 
     - <center>
 
-      ​	<img src ="..Outputs/Latex_images/Ellipse/felip.png" />
+      ​	<img src ="../Outputs/Latex_images/Ellipse/felip.png" />
 
       </center>  
 
@@ -52,7 +52,7 @@
 
       <center>
 
-      ​	<img src ="..Outputs/Latex_images/Ellipse/felip_prop.png" />
+      ​	<img src ="../Outputs/Latex_images/Ellipse/felip_prop.png" />
 
       </center>  
 
@@ -60,7 +60,7 @@
 
       <center>
 
-      ​	<img src ="..Outputs/Latex_images/Ellipse/slope.png" />
+      ​	<img src ="../Outputs/Latex_images/Ellipse/slope.png" />
 
       </center>    
 
@@ -68,7 +68,7 @@
 
       <center>
 
-      ​	<img src ="..Outputs/Latex_images/Ellipse/bc.png" />
+      ​	<img src ="../Outputs/Latex_images/Ellipse/bc.png" />
 
       </center>  
 
@@ -76,7 +76,7 @@
 
       <center>
 
-      ​	<img src ="..Outputs/Latex_images/Ellipse/p10.png" />
+      ​	<img src ="../Outputs/Latex_images/Ellipse/p10.png" />
 
       </center>   
 
@@ -84,7 +84,7 @@
 
       <center>
 
-      ​	<img src ="..Outputs/Latex_images/Ellipse/p1k1.png" />
+      ​	<img src ="../Outputs/Latex_images/Ellipse/p1k1.png" />
 
       </center> 
 
@@ -92,7 +92,7 @@
 
       <center>
 
-      ​	<img src ="..Outputs/Latex_images/Ellipse/p20png" />
+      ​	<img src ="../Outputs/Latex_images/Ellipse/p20png" />
 
       </center>   
 
@@ -100,7 +100,7 @@
 
       <center>
 
-      ​	<img src ="..Outputs/Latex_images/Ellipse/p2k1.png" />
+      ​	<img src ="../Outputs/Latex_images/Ellipse/p2k1.png" />
 
       </center> 
 
