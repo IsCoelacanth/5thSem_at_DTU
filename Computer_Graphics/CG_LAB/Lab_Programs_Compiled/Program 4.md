@@ -1,4 +1,4 @@
-# <center><u>Program 4</u></center>
+# <p align="center"><u>Program 4</u></
 ### AIM: To write a program to implement the Mid-Point Ellipse Algorithm in C..
 
 ### Description of Aim & Related Theory:
@@ -7,29 +7,29 @@
 
     - An ellipse is defined as the set of points such that the sum of the distances from two fixed positions (foci) is the same for all points. If the distances to the two foci from any point on the ellipse are labeled d 1 and d 2 , then the general equation of an ellipse can be stated as :    
 
-      <center>
+      <p align="center">
 
       ​	<img src ="../Outputs/Latex_images/Ellipse/d1_p_d2_C.png" />
 
-      </center>
+      </
 
     - Expressing distances d 1 and d 2 in terms of the focal coordinates and , we have:  
 
-      <center>
+      <p align="center">
 
       ​	<img src ="../Outputs/Latex_images/Ellipse/elipForm.png" />
 
-      </center>
+      </
 
     - Ellipse equations are greatly simplified if the major and minor axes are oriented to align with the coordinate axes. An ellipse in &quot;standard position&quot; has major and minor axes oriented parallel to the x and y axes respectively.  
 
     - Parameter rx labels the semi-major axis, and parameter ry labels the semi-minor axis. The equation of the ellipse can be written in terms of the ellipse center coordinates and parameters rx and ry as :   
 
-      <center>
+      <p align="center">
 
       ​	<img src ="../Outputs/Latex_images/Ellipse/elipForm2.png" />
 
-      </center>
+      </
 
     - Alternatively, one could use the polar coordinates, but yet again they come at a higher computational cost, thus more efficient algorithms have been designed to draw ellipses.
 
@@ -42,67 +42,67 @@
 
     - The start point is taken as (0, Ry) and the stepping is clockwise. To apply the algorithm we use the following as the elipse function of an ellipse centered at (0, 0).  
 
-    - <center>
+    - <p align="center">
 
       ​	<img src ="../Outputs/Latex_images/Ellipse/felip.png" />
 
-      </center>  
+      </p>  
 
       where
 
-      <center>
+      <p align="center">
 
       ​	<img src ="../Outputs/Latex_images/Ellipse/felip_prop.png" />
 
-      </center>  
+      </p>  
 
     - Here, the slope is given be :  
 
-      <center>
+      <p align="center">
 
       ​	<img src ="../Outputs/Latex_images/Ellipse/slope.png" />
 
-      </center>    
+      </p>    
 
       At the boundary between the two octants, the slope is -1. and  we move out of octant 1 when  
 
-      <center>
+      <p align="center">
 
       ​	<img src ="../Outputs/Latex_images/Ellipse/bc.png" />
 
-      </center>  
+      </p>  
 
     - In octant 1 the initial decision parameter P0 is obtained by evaluating the ellipse function at (0, Ry), given by:  
 
-      <center>
+      <p align="center">
 
       ​	<img src ="../Outputs/Latex_images/Ellipse/p10.png" />
 
-      </center>   
+      </p>   
 
       And the parameter for the Kth point in octant 1 is given by:  
 
-      <center>
+      <p align="center">
 
       ​	<img src ="../Outputs/Latex_images/Ellipse/p1k1.png" />
 
-      </center> 
+      </p> 
 
     - In the second octant, the initial position is the last position from the first octant. The decision parameter for this octant is given by:  
 
-      <center>
+      <p align="center">
 
       ​	<img src ="../Outputs/Latex_images/Ellipse/p20png" />
 
-      </center>   
+      </p>   
 
       And the parameter for the Kth point in octant 2 is given by: 
 
-      <center>
+      <p align="center">
 
       ​	<img src ="../Outputs/Latex_images/Ellipse/p2k1.png" />
 
-      </center> 
+      </p> 
 
     - Assuming rx, ry and the ellipse center are given in integer screen coordinates, we only need incremental integer calculations to determine values for the decision parameters in the midpoint ellipse algorithm. The increments rx^2, ry^2, 2rx^2, and 2ry^2 are evaluated once at the beginning of the procedure.
 ---
