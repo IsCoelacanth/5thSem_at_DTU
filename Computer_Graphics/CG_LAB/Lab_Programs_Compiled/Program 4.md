@@ -11,7 +11,7 @@
 
       ​	<img src ="../Outputs/Latex_images/Ellipse/d1_p_d2_C.png" />
 
-      </
+      </p>
 
     - Expressing distances d 1 and d 2 in terms of the focal coordinates and , we have:  
 
@@ -19,7 +19,7 @@
 
       ​	<img src ="../Outputs/Latex_images/Ellipse/elipForm.png" />
 
-      </
+      </p>
 
     - Ellipse equations are greatly simplified if the major and minor axes are oriented to align with the coordinate axes. An ellipse in &quot;standard position&quot; has major and minor axes oriented parallel to the x and y axes respectively.  
 
@@ -29,7 +29,7 @@
 
       ​	<img src ="../Outputs/Latex_images/Ellipse/elipForm2.png" />
 
-      </
+      </p>
 
     - Alternatively, one could use the polar coordinates, but yet again they come at a higher computational cost, thus more efficient algorithms have been designed to draw ellipses.
 
