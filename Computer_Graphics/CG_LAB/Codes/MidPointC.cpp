@@ -58,29 +58,29 @@ void cirPlotPts(GLint X, GLint Y, pts circ)
 }
 
 void CircleMidPointHc()
+{
+    pts cpt;
+    initpt(&cpt);
+	GLint p = 1-R;
+
+	setCords(&cpt,0,R);
+	cirPlotPts(Xc,Yc,cpt);
+
+	while(cpt.X < cpt.Y)
 	{
-	    pts cpt;
-	    initpt(&cpt);
-		GLint p = 1-R;
-
-		setCords(&cpt,0,R);
-		cirPlotPts(Xc,Yc,cpt);
-
-		while(cpt.X < cpt.Y)
+		incX(&cpt);
+		if(p < 0)
+			p += 2*cpt.X + 1;
+		else
 		{
-			incX(&cpt);
-			if(p < 0)
-				p += 2*cpt.X + 1;
-			else
-			{
-				decY(&cpt);
-				p += 2*(cpt.X - cpt.Y) + 1;
-			}
-			cirPlotPts(Xc,Yc,cpt);
+			decY(&cpt);
+			p += 2*(cpt.X - cpt.Y) + 1;
 		}
-		glFlush();
-		glutSwapBuffers();
+		cirPlotPts(Xc,Yc,cpt);
 	}
+	glFlush();
+	glutSwapBuffers();
+}
 
 int main(int argc, char** argv)
 {
