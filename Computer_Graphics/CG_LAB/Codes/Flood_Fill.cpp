@@ -90,6 +90,15 @@ void draw_circle()
 	}
 }
 
+//Calls the flood fill on mouse click
+void onMouseClick(int button, int state, int x, int y)
+{
+	Color newColor = {0.45f, 0.77f, 0.5f};
+	Color oldColor = {1.0f, 1.0f, 1.0f};
+
+	floodFill(320, 240, oldColor, newColor);
+}
+
 //The main display function
 void display() {
 
@@ -98,12 +107,8 @@ void display() {
 	glBegin(GL_POINTS);
 		draw_circle();
 	glEnd();
-	//Fill in the circle
-	Color newColor = {0.0f, 1.0f, 1.0f};
-	Color oldColor = {1.0f, 1.0f, 1.0f};
-	floodFill(P.x, P.y, oldColor, newColor);
-
 	glFlush();
+	glutSwapBuffers();
 }
 
 
@@ -115,7 +120,8 @@ int main(int argc, char** argv)
 	glutInitWindowSize(640, 640);
 	glutCreateWindow("FloodFill");
 	init();
-	glutDisplayFunc(display);
+	glutDisplayFunc(display);	
+	glutMouseFunc(onMouseClick);
 	glutMainLoop();
 	return 0;
 }
