@@ -13,6 +13,7 @@
 |								                  |                |                                              |21       |
 
 2K15 COE-A with CG-B1, PR-A1, CV-A can find their time table [here](/Misc/ttable.md)
+Update: 20-sept-2017 [Mid Semester Datesheet](/Misc/Date_Sheet_MidSems.md)
 ->rest to be added later<-
 
 -----
