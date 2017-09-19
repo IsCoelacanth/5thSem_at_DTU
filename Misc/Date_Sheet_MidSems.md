@@ -9,7 +9,7 @@
 |24 - Sept|Sun|      -     |     -     |
 |25 - Sept|Mon| CO-303 TOC | IT-307 PR |
 |26 - Sept|Tue|      -     |     -     |
-|27 - Sept|Web|      -     |     -     |
+|27 - Sept|Wed|      -     |     -     |
 |28 - Sept|Thu| EC-353 CV  | CO-313 CG |
 |29 - Sept|Fri| HU-303 PEV |     -     |
 
