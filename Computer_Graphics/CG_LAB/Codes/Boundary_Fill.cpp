@@ -76,18 +76,18 @@ void setPixelColor(GLint x, GLint y, Color color)
 }
 
 //The Flood Fill algorithm
-void floodFill(GLint x, GLint y, Color oldColor, Color newColor) 
+void boundfill(GLint x, GLint y, Color boundcolor, Color newColor) 
 {
 	Color color;
 	color = getPixelColor(x, y);
 
-	if(color.r == oldColor.r && color.g == oldColor.g && color.b == oldColor.b)
+	if((color.r != boundcolor.r || color.g != boundcolor.g || color.b != boundcolor.b) && (color.r != newColor.r || color.g != newColor.g || color.b != newColor.b))
 	{
-		setPixelColor(x, y, newColor);
-		floodFill(x+1, y, oldColor, newColor);
-		floodFill(x, y+1, oldColor, newColor);
-		floodFill(x-1, y, oldColor, newColor);
-		floodFill(x, y-1, oldColor, newColor);
+		setPixelColor(x, y, newColor);		
+		boundfill(x+1, y, boundcolor, newColor);
+		boundfill(x-2, y, boundcolor, newColor);
+		boundfill(x, y+2, boundcolor, newColor);
+		boundfill(x, y-2, boundcolor, newColor);
 	}
 	return;
 }
@@ -107,6 +107,7 @@ void floodFill(GLint x, GLint y, Color oldColor, Color newColor)
 
 void draw_rect() 
 {
+	// glColor3f(1.0f,1.0f,1.0f);
 	glVertex2i(P.x1,P.y1);
 	glVertex2i(P.x2,P.y1);	
 	glVertex2i(P.x2,P.y2);
@@ -117,9 +118,9 @@ void draw_rect()
 void onMouseClick(int button, int state, int x, int y)
 {
 	Color newColor = {0.45f, 0.77f, 0.5f};
-	Color oldColor = {1.0f, 1.0f, 1.0f};
+	Color boundcolor = {0.0f, 0.0f, 0.0f};
 
-	floodFill(150, 150, oldColor, newColor);
+	boundfill((P.x1+P.x2)/2, (P.y1+P.y2)/2, boundcolor, newColor);
 }
 
 //The main display function
