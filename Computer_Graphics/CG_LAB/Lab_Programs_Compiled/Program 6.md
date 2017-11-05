@@ -1,3 +1,26 @@
+# <center><u>Program 6</u></center>
+### AIM: To write a C program to implement boundary fill polygon filling algorithm.
+
+### Description of Aim & Related Theory:
+
+- #### The Flood Fill Algorithm:  
+    + The boundary fill algorithm works as its name. This algorithm picks a point inside an object and starts to fill until it hits the boundary of the object. The color of the boundary and the color that we fill should be different for this algorithm to work. In this algorithm, we assume that color of the boundary is same for the entire object. The boundary fill algorithm can be implemented by 4-connected pixels or 8-connected pixels.
+
+---
+
+### Algorithm:
+1. BoundFill(X, Y, fill_color, bound_color):
+2. ​    if (!(get_pixel(X,Y) == bound_color || get_pixel(X,Y) == fill_color)):
+3. ​        put_pixel(X,Y,new_color)
+4. ​        BoundFill(X-1, Y, fill_color, bound_color)
+5. ​        BoundFill(X+1, Y, fill_color, bound_color)
+6. ​        BoundFill(X, Y-1, fill_color, bound_color)
+7. ​        BoundFill(X, Y+1, fill_color, bound_color)
+8. ​    return
+
+---
+### Code:    
+``` cpp
 #include <math.h>
 #include <GL/glut.h>
 struct Point {
@@ -79,3 +102,19 @@ int main(int argc, char** argv)
 	glutMainLoop();
 	return 0;
 }
+```
+---
+### Results and outputs:  
+the command line inputs.     
+
+before coloring :  
+![Output GPH](H:\College stuff\College Stuff.Academic\College Stuff.Academic.Semesters\College.Stuff.Academic.Semesters.YEAR_3\SEM 5\Computer_Graphics\CG_LAB\Outputs\bf_bc.png)  
+after coloring:  
+![Output GPH](H:\College stuff\College Stuff.Academic\College Stuff.Academic.Semesters\College.Stuff.Academic.Semesters.YEAR_3\SEM 5\Computer_Graphics\CG_LAB\Outputs\bf_ac.png)  
+
+---
+### Findings and Learnings:
+1. Boundary fill algorithm is for filling polygons. It's a basic recursion algorithm and requires a large stack for bigger polygons. For this reason it is generally not implemented as is. 
+2. Implemented flood fill algorithm using OpenGL in C++. 
+
+---

@@ -7,13 +7,6 @@
 #include <iostream>
 using namespace std;
 
-//Structure to store circle details.
-// struct Circle {
-// 	GLint x;
-// 	GLint y;
-// 	GLfloat R;
-// };
-// Circle P;
 
 struct Rect {
 	GLint x1,x2;
@@ -29,14 +22,6 @@ struct Color {
 	GLfloat b;
 };
 
-//Function to input the circle values
-// void get_Circle()
-// {
-// 	printf("Enter the center\n");
-// 	scanf("%d %d",&P.x,&P.y);
-// 	printf("Enter the radius\n");
-// 	scanf("%f",&P.R);
-// }
 
 void get_Rect()
 {
@@ -92,19 +77,6 @@ void floodFill(GLint x, GLint y, Color oldColor, Color newColor)
 	return;
 }
 
-//Function to draw circle using the polar coordinates
-// void draw_circle() 
-// {
-// 	GLfloat step = 1/P.R;
-// 	GLfloat x, y;
-
-// 	for(GLfloat theta = 0; theta <= 360; theta += step) {
-// 		x = P.x + (P.R * cos(theta));
-// 		y = P.y + (P.R * sin(theta));
-// 		glVertex2i(x, y);
-// 	}
-// }
-
 void draw_rect() 
 {
 	glVertex2i(P.x1,P.y1);
@@ -119,7 +91,7 @@ void onMouseClick(int button, int state, int x, int y)
 	Color newColor = {0.45f, 0.77f, 0.5f};
 	Color oldColor = {1.0f, 1.0f, 1.0f};
 
-	floodFill(150, 150, oldColor, newColor);
+	floodFill((P.x1+P.x2)/2, (P.y1+P.y2)/2, oldColor, newColor);
 }
 
 //The main display function
