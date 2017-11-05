@@ -108,9 +108,9 @@ int main(int argc, char** argv)
 the command line inputs.     
 
 before coloring :  
-![Output GPH](H:\College stuff\College Stuff.Academic\College Stuff.Academic.Semesters\College.Stuff.Academic.Semesters.YEAR_3\SEM 5\Computer_Graphics\CG_LAB\Outputs\bf_bc.png)  
+![Output GPH](../Outputs/bf_bc.png)  
 after coloring:  
-![Output GPH](H:\College stuff\College Stuff.Academic\College Stuff.Academic.Semesters\College.Stuff.Academic.Semesters.YEAR_3\SEM 5\Computer_Graphics\CG_LAB\Outputs\bf_ac.png)  
+![Output GPH](../Outputs/bf_ac.png)  
 
 ---
 ### Findings and Learnings:

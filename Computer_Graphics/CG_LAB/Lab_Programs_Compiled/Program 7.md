@@ -14,8 +14,8 @@
 1. Assign a region code for two endpoints of given line.
 2. If both endpoints have a region code 0000 then given line is completely inside.
 3. Else, perform the logical AND operation for both region codes.
-    3.1 If the result is not 0000, then given line is completely outside.
-    3.2 Else line is partially inside.
+    3.1 If the result is not 0000, then given line is completely outside.
+        3.2 Else line is partially inside.
          3.2.1 Choose an endpoint of the line that is outside the given rectangle.
          3.2.2 Find the intersection point of the rectangular boundary (based on region code).
          3.2.3 Replace endpoint with the intersection point and update the region code.
@@ -176,12 +176,12 @@ the command line inputs.
 
 command line instructions:  
 
-![Output GPH](H:\College stuff\College Stuff.Academic\College Stuff.Academic.Semesters\College.Stuff.Academic.Semesters.YEAR_3\SEM 5\Computer_Graphics\CG_LAB\Outputs\cslc_cli.png)
+![Output GPH](../Outputs/cslc_cli.png)
 
 before coloring :  
-![Output GPH](H:\College stuff\College Stuff.Academic\College Stuff.Academic.Semesters\College.Stuff.Academic.Semesters.YEAR_3\SEM 5\Computer_Graphics\CG_LAB\Outputs\cslc_bc.png)  
+![Output GPH](../Outputs/cslc_bc.png)  
 after coloring:  
-![Output GPH](H:\College stuff\College Stuff.Academic\College Stuff.Academic.Semesters\College.Stuff.Academic.Semesters.YEAR_3\SEM 5\Computer_Graphics\CG_LAB\Outputs\cslc_ac.png)  
+![Output GPH](../Outputs/cslc_ac.png)  
 
 ---
 ### Findings and Learnings:

@@ -127,9 +127,9 @@ int main(int argc,char ** argv)
 the command line inputs.   
 
 before clipping :  
-![Output GPH](H:\College stuff\College Stuff.Academic\College Stuff.Academic.Semesters\College.Stuff.Academic.Semesters.YEAR_3\SEM 5\Computer_Graphics\CG_LAB\Outputs\lblc_bc.png)  
+![Output GPH](../Outputs/lblc_bc.png)  
 after clipping:  
-![Output GPH](H:\College stuff\College Stuff.Academic\College Stuff.Academic.Semesters\College.Stuff.Academic.Semesters.YEAR_3\SEM 5\Computer_Graphics\CG_LAB\Outputs\lblc_ac.png)  
+![Output GPH](../Outputs/lblc_ac.png)  
 
 ---
 ### Findings and Learnings:

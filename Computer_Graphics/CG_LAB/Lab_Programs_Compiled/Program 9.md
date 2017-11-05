@@ -165,7 +165,7 @@ int main(int argc,char *argv[]){
 the command line inputs.   
 
 Output :  
-![Output GPH](H:\College stuff\College Stuff.Academic\College Stuff.Academic.Semesters\College.Stuff.Academic.Semesters.YEAR_3\SEM 5\Computer_Graphics\CG_LAB\Outputs\CHPC.png)  
+![Output GPH](../Outputs/CHPC.png)  
 Red: Window 
 
 Green: Clipped out region

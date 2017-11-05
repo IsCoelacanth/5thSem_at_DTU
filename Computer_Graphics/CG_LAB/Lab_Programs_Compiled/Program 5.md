@@ -155,12 +155,12 @@ int main(int argc, char** argv)
 ### Results and outputs:  
 the command line inputs.  
 
-![Output CLI](H:\College stuff\College Stuff.Academic\College Stuff.Academic.Semesters\College.Stuff.Academic.Semesters.YEAR_3\SEM 5\Computer_Graphics\CG_LAB\Outputs\ff_cli.png)   
+![Output CLI](../Outputs/ff_cli.png)   
 The generated line.   
 before coloring :  
-![Output GPH](H:\College stuff\College Stuff.Academic\College Stuff.Academic.Semesters\College.Stuff.Academic.Semesters.YEAR_3\SEM 5\Computer_Graphics\CG_LAB\Outputs\ff_pc.png)  
+![Output GPH](../Outputs/ff_pc.png)  
 after coloring:  
-![Output GPH](H:\College stuff\College Stuff.Academic\College Stuff.Academic.Semesters\College.Stuff.Academic.Semesters.YEAR_3\SEM 5\Computer_Graphics\CG_LAB\Outputs\ff_ac.png)  
+![Output GPH](../Outputs/ff_ac.png)  
 
 ---
 ### Findings and Learnings:
