@@ -1,20 +1,22 @@
 # Parent directory for coding assignments of 5th semester at DTU
-**Note: This repo is for Computer engineering with PR, CG and CV as electives. A more general Format will come later**
+**Note: This repo is for Computer engineering with PR, CG and CV as electives. **  
+## <u>Note : (9-Nov-2017) This is the final update to this repository. Hope this was helpful for those who found it :D.</u>  
+
 ## Subjects  
 
-|Subject                          |Subject-Code    |Subject Type                                  |Credits  |
-|:-------------------------------:|:--------------:|:--------------------------------------------:|:-------:|
-|Software Engineering             | (CO-301)       |Departmental Core Course                      |4        |
-|Theory of Computation            | (CO-303)       |Departmental Core Course                      |4        |
-|Computer Graphics                | (CO-313)       |Department/General Elective Course            |4        |
-|Pattern Recognition              | (IT-307)       |Department/General Elective Course            |4        |
-|Computer vision                  | (EC-353)       |University Elective Course                    |3        |
-|Professional Ethics and Values   | (HU-303)       |Humanities/Social Science/Management Course   |2        |
-|								                  |                |                                              |21       |
+|            Subject             | Subject-Code |               Subject Type               | Credits |
+| :----------------------------: | :----------: | :--------------------------------------: | :-----: |
+|      Software Engineering      |   (CO-301)   |         Departmental Core Course         |    4    |
+|     Theory of Computation      |   (CO-303)   |         Departmental Core Course         |    4    |
+|       Computer Graphics        |   (CO-313)   |    Department/General Elective Course    |    4    |
+|      Pattern Recognition       |   (IT-307)   |    Department/General Elective Course    |    4    |
+|        Computer vision         |   (EC-353)   |        University Elective Course        |    3    |
+| Professional Ethics and Values |   (HU-303)   | Humanities/Social Science/Management Course |    2    |
+|                                |              |                                          |   21    |
 
 2K15 COE-A with CG-B1, PR-A1, CV-A can find their time table [here](/Misc/ttable.md)  
-Update: 20-sept-2017 [Mid Semester Datesheet](/Misc/Date_Sheet_MidSems.md)
-->rest to be added later<-
+Update: 20-sept-2017 [Mid Semester Datesheet](/Misc/Date_Sheet_MidSems.md)  
+Update: 09-Nov-2017 [End Semester Datesheet](/Misc/Date_Sheet_EndSems.md)  
 
 -----
 
